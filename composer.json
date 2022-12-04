@@ -1,0 +1,22 @@
+{
+  "name": "intimation/catalyst-theme-support",
+  "type": "library",
+  "description": "Catalyst element to add and remove support for theme features through config.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Simpson",
+      "homepage": "https://intimation.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "intimation/catalyst": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Intimation\\Catalyst\\": "src/"
+    }
+  }
+}
